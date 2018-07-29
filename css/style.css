@@ -1,0 +1,184 @@
+.img-size{height: 120%; margin-top: -2px;}
+.carousel-class{margin-top: -10px; margin-bottom: 20px;}
+.middle-content{margin-bottom: 0px;}
+#img-desc{height: 250px; margin-right: 10px;}
+.font-style{font-family: sans-serif;}
+body{background-image: url(../img/bg-img.png);  margin: 0; padding: 0;}
+.footer-bar{margin-bottom: 0px;border-radius: 0;}
+.header-bar ul li:hover{background: black;}
+.background-white{background: #ffffff;}
+.img-home-class{margin-top: 40px;width: 400px;height: 220px;}
+
+/*-----------------------------------about--------------------------*/
+.about-us{font-size: 40px; font-weight: bolder; color:saddlebrown; text-align: center;}
+.side-bar ul li{font-size: 16px; }
+.side-bar{margin-top: 25px;}
+.side-bar ul li a{color: #644436;}
+.side-bar ul li a:hover{font-size: 18px; font-weight: bold;color:#644436;background: none; transition:all 1s ease;
+-o-transition:all .50s ease;-moz-transition:all .50s ease;-webkit-transition:all .50s ease;transform:scale(1.1)}
+
+.org-str{text-align: center;font-weight: bold;padding-top: 20px;}
+.padding-btm{margin-bottom: 30px;}
+/*-----------------------------------contact--------------------------*/
+.contact-us{font-size: 40px; font-weight: bolder; color:saddlebrown; text-align: center; }
+.form-sub{width: 300px;}
+.form-sub1{width: 250px;}
+.icon-posi{padding-left: 25px;}
+.map{margin-bottom: 30px;}
+/*-----------------------------------universal--------------------------*/    
+p{color:black;font-size: 16px; text-align: justify;}    
+
+/*-----------------------------------clients--------------------------*/  
+.our-clients{font-size: 40px; font-weight: bolder; color:saddlebrown; text-align: center;}
+.clints-cont{text-align: center;}
+.client-list ul li{font-size: 16;color:black;text-align: justify;}
+.color-h3{color: brown;}
+.client-padding ul li{padding-bottom: 10px; padding-top: 10px;}
+.margin-bottom{margin-bottom:40px;}
+
+/*.....................................service...................*/
+.tab-nav-ber ul li a{color: darkred; font-family: sans-serif; font-weight: bold;}
+.img-service-size{height: 200px; width: 550px;}
+
+/*.....................................gallery...................*/
+.img-resize{width: 300px;height: 160px;}
+.hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.9; /*initial opacity of images*/
+margin: 0 5px 5px 0; /*margin between images*/
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(1.2); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.2); /*Mozilla scale version*/
+-o-transform:scale(1.2); /*Opera scale version*/
+box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;
+}
+/*.....................................slider index...................*/
+/* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+/*.....................................end slider...................*/
+
+.footer-list ul li a{text-align: center; text-decoration: none; color: dimgrey;}
+.footer-list ul{margin-top:0px;}
+.footer-list ul li{padding: 2px;}
+.footer-list ul li a:hover{text-decoration:underline;}
+.footer-list ul{text-align: left;}
+.icon-footer{margin-top:0px;}
+.fb{color:#3A5795; }
+.tw{color: #659FCB;}
+.goog{color: #DF4B38;}
+.app{color: #4FEF6B;}
+.you{color: #DE2925;}
+.sky{color: #00AFF0;}
+.font-size{font-size: 16px;}
+.last-row ul li{ display: inline; margin-left: 5px;}
+.last-row ul li a{text-align: center; text-decoration: none;color: dimgrey ;}
+.last-row ul{margin-top: 17px;}
+.last-row ul li a:hover{text-decoration:underline;}
+.color-cont{color:dimgrey ; }
+
+
+/*.....................................slider index...................*/
+
+.demof {
+border: 1px solid #ccc;
+margin: 25px 0;
+}
+.demof ul {
+padding: 0;
+list-style: none;
+}
+.demof li {
+padding: 20px;
+border-bottom: 1px dashed #ccc;
+}
+.demof li.odd {
+background: #fafafa;
+}
+.demof li:after {
+content: '';
+display: block;
+clear: both;
+}
+.demof img {
+float: left;
+width: 177px;
+margin: 5px 15px 0 0;
+}
+.demof a {
+font-family: Arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: #06f;
+}
+.demof p {
+margin: 15px 0 0;
+font-size: 14px;
+}
+
+
+.et-run {
+background-color: #0cf;
+color: white;
+border: 1px solid black;
+}
